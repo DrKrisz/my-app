@@ -9,7 +9,7 @@ function Home() {
     <div>
       <h1>Games page</h1>
       <p>Welcome to the Games page</p>
-      <button onClick={() => navigate('/')}>Go to About</button>
+      <button onClick={() => navigate('/')}>Go to Home</button>
     </div>
   );
 }
