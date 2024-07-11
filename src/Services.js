@@ -1,17 +1,16 @@
-// src/Home.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Home() {
+function Services() {
   const navigate = useNavigate();
 
   return (
-    <div>
-      <h1>Games page</h1>
-      <p>Welcome to the Games page</p>
+    <div className="services">
+      <h1>Our Services</h1>
+      <p>We offer a variety of massage services to meet your needs.</p>
       <button onClick={() => navigate('/')}>Go to Home</button>
     </div>
   );
 }
 
-export default Home;
+export default Services;

@@ -8,14 +8,13 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
-      <button onClick={() => navigate('/about')}>Go to About</button>
-      <button onClick={() => navigate('/games')}>Go to Games</button>
+    <div className="home">
+      <h1>Welcome to Our Massage Company</h1>
+      <p>Experience the best massage therapy services.</p>
+      <button onClick={() => navigate('/about')}>Learn More About Us</button>
+      <button onClick={() => navigate('/services')}>View Our Services</button>
       <br />
       <img src={myImage} alt="Description of the image" style={{ width: '600px', height: 'auto' }} />
-
     </div>
   );
 }
